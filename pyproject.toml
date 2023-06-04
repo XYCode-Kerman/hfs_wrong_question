@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hfs-wrong-question"
+version = "0.1.0"
+description = ""
+authors = ["XYCode-Kerman <xycode-xyc@outlook.com>"]
+readme = "README.md"
+packages = [{include = "hfs_wrong_question"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.12"
+requests = "^2.31.0"
+termcolor = "^2.3.0"
+wget = "^3.2"
+pillow = "^9.5.0"
+pyinstaller = "^5.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+nuitka = "^1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
